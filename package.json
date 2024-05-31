@@ -1,6 +1,6 @@
 {
 	"name": "@gummy47/hash-object",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Get the hash of an object - webpack compatible",
 	"license": "MIT",
 	"repository": "Gummy47/hash-object",
