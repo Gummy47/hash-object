@@ -1,4 +1,4 @@
-import crypto from 'node:crypto';
+import crypto from 'crypto';
 import isObject from 'is-obj';
 import sortKeys from 'sort-keys';
 import decircular from 'decircular';
