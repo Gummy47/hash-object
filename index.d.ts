@@ -1,4 +1,4 @@
-import {type Encoding as CryptoEncoding} from 'node:crypto';
+import {type Encoding as CryptoEncoding} from 'crypto';
 import {type LiteralUnion} from 'type-fest';
 
 export type Encoding = CryptoEncoding | 'buffer';

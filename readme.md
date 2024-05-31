@@ -2,10 +2,13 @@
 
 > Get the hash of an object
 
+[Original version](https://github.com/sindresorhus/hash-object) used node-specific `node:crypto` import syntax which made it incompatible with webpack.
+Slightly modified it to fit my needs, that's all.
+
 ## Install
 
 ```sh
-npm install hash-object
+npm install @gummy47/hash-object
 ```
 
 ## Usage
@@ -45,7 +48,3 @@ Default: `'sha512'`\
 Values: `'md5' | 'sha1' | 'sha256' | 'sha512' | …` *([Platform dependent](https://nodejs.org/api/crypto.html#crypto_crypto_createhash_algorithm))*
 
 *Don't use `'md5'` or `'sha1'` for anything sensitive. [They're insecure.](http://googleonlinesecurity.blogspot.no/2014/09/gradually-sunsetting-sha-1.html)*
-
-## Related
-
-- [hasha](https://github.com/sindresorhus/hasha) - Hashing made simple. Get the hash of a buffer/string/stream/file.
